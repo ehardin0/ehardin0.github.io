@@ -1,6 +1,41 @@
+.banner {
+  display: flex;
+  justify-content:center;
+}
+
 .banner-image {
-width: 128px;
-height: 128px;
-border-radius: 128px;
-object-fit: cover;
+  width: 128px;
+  height: 128px;
+  border-radius: 128px;
+  object-fit: cover;
+  padding: 30px;
+}
+
+.name {
+  font-size: 50px;
+  color: skyblue
+  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-family: 'Space Grotesk', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-size: 35px;
+display: flex;
+justify-content: center;
+
+}
+
+div {
+  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px
+}
+
+.social-icons {
+  width: 25px;
+  height: 25px;
 }
